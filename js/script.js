@@ -3,14 +3,12 @@ function Phone(brand, price, color, weight, screen, memory, model, inrank) {
 	this.brand = brand;
 	this.price = price;
 	this.color = color;
-  	
   	this.weight = weight;
   	this.screen = screen;
   	this.memory = memory;
   	this.model = model;
   	this.rank = inrank; 
 }
-
 
 Phone.prototype.printInfo = function() {
 	console.log('The phone brand is ' + this.brand + ', color is ' + this.color + ' and the price is ' + this.price + '. Specyfication: ' + this.weight + ' gram, ' + this.screen + ' resolution and ' + this.memory + ' gb memory.');
